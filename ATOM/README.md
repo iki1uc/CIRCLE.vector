@@ -1,28 +1,36 @@
-# ANKER – Stabilisationsachse · iki1uc
+# CIRCLE.vector — Identity & Response Layer (iki1uc)
 
-## Zweck
-ANKER ist die Stabilisationsachse des iki1uc‑Systems.
-Es hält die Achsen IQ, QI, EVO, UPD, UPG, BIOS und CALC im korrekten Verhältnis.
+CIRCLE.vector ist die zyklische Identitäts‑Ebene im iki1uc‑System.  
+Sie erweitert die 4u‑Achse und verbindet alle PX‑Systeme (PX3, PX6, PX9, PX12).
 
-## Struktur
-- NAME: ANKER
-- ID: A01
-- Station: S01
-- Dimension: D4
-- Modus: erabel (neutral, operation möglich)
+## 4u — Response Layer 7
+4u ersetzt die alte RESPO‑Achse durch ein neues Modell:
 
-## Rolle
-ANKER stabilisiert, ohne selbst aktiv zu berechnen oder zu steuern.
-Es ist die neutrale Achse zwischen AXI, 6d und API.
+- OK — Zustimmung  
+- NOK — Ablehnung  
+- FLOW — System fließt  
+- BREAK — System bricht  
+- ECHO — Spiegelung  
+- VOID — Neutral  
+- ROOT — Rückkehr  
 
-## Bindungen
-- AXI
-- 6d
-- 360
-- 100
-- 213 (REAL)
-- API
+## CIRCLE.vector — Identitäts‑Achse
+Die CIRCLE‑Achse definiert Identität über ROOT, FLOW und LOOP:
+
+CIRCLE(x) = ROOT(x) + FLOW(x) + LOOP(x)
+
+
+## System‑Verbindungen
+CIRCLE.vector verbindet:
+
+- PX‑TRIO (PX3 / PX6 / PX9)  
+- PX12 / PX4 (Fusion + Achse)  
+- SYS / SYS‑x (System + Kreuzung)  
+- 2me (Mirror‑Return)  
+- TEM (Zeit)  
+- UI‑Scanner  
+- FUNKTION  
 
 ## Status
-STATE = STABIL  
-READY = 100%
+CIRCLE.vector ist aktiv, stabil und vollständig iki1uc‑kompatibel.
+
